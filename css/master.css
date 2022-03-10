@@ -1,0 +1,90 @@
+:root {
+  --main : #3A81BA;
+  --yellow : #FFB61D;
+  --red : #8B0000;
+  --heading : #012670;
+  --dark-grey : #363636;
+}
+
+.text-heading {
+  color: var(--heading)
+}
+
+.text-main {
+  color: var(--main)
+}
+
+.text-second {
+  color : var(--dark-grey)
+}
+
+
+body {
+  font-family : "Raleway", sans-serif;
+  background-color: #FDFDFD;
+  position: relative;
+}
+
+.nav-box {
+  margin-top: 3rem;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+  font-weight: bold;
+
+
+}
+
+.nav-item.active, .nav-item:hover {
+  background-color: #ECF5FF;
+  border-radius: 12px;
+  transition: background-color .1s ease-in-out;
+
+}
+
+.btn-main {
+  background-color: var(--main);
+}
+
+.btn-main:hover {
+  background-color : transparent;
+  color: var(--main) !important;
+  border-color: var(--main);
+}
+
+.hero {
+  margin-top : 6em;
+  /* background-image : url(../assets/hero-bg.png); */
+  position:relative;
+}
+
+.glass-box {
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.6px);
+-webkit-backdrop-filter: blur(9.6px);
+border: 1px solid rgba(255, 255, 255, 0.31);
+  width: 475px;
+
+
+}
+
+#hero-vector {
+  position: relative;
+  bottom: 16px;
+  right: -240px
+
+}
+
+.counter-box {
+  background-color:white;
+  border-radius: 12px;
+  margin-top: 6rem;
+  padding: 0 0;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
