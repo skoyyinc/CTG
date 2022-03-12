@@ -138,11 +138,16 @@ border: 1px solid rgba(255, 255, 255, 0.31);
 
 .carousel {
   background: transparent;
+  padding:0 3.5em
 }
 
 .carousel-cell {
-  width:15rem;
+  width:13rem;
   height:15rem
+}
+
+.flickity-page-dots {
+  display:none;
 }
 
 .overlay{
@@ -208,7 +213,7 @@ border: 1px solid rgba(255, 255, 255, 0.31);
 }
 
 .footer-clean {
-  padding:2em 0;
+  padding:2em 8%;
   background-color: var(--heading);
   color:white;
   padding-bottom:2rem;
