@@ -48,14 +48,14 @@ html,body {
 
 .nav-link {
   font-weight: bold;
-
+  font-size:.9em
 
 }
 
 .nav-item.active, .nav-item:hover {
   background-color: #ECF5FF;
   border-radius: 12px;
-  transition: background-color .1s ease-in-out;
+  transition: .2s ease;
 
 }
 
@@ -213,7 +213,7 @@ border: 1px solid rgba(255, 255, 255, 0.31);
 }
 
 .footer-clean {
-  padding:2em 8%;
+  padding:1em 8%;
   background-color: var(--heading);
   color:white;
   padding-bottom:2rem;
