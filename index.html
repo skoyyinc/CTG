@@ -20,7 +20,7 @@
 </head>
 
 <body>
-  <section style="padding:3rem 12%">
+  <section style="padding:3em 12%">
     <div class="container nav-box px-5 ">
       <nav class="navbar navbar-expand-xl navbar-light p-0">
         <div class="container-fluid">
@@ -38,28 +38,35 @@
                   About
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="our-team.html">Our Company</a></li>
                   <li><a class="dropdown-item" href="our-service.html">Our Services</a></li>
-                  <li><a class="dropdown-item" href="our-team.html">Our Team</a></li>
-                  <li><a class="dropdown-item" href="#">Our Thoughts</a></li>
+                  <li><a class="dropdown-item" href="#">Our Viewpoints</a></li>
                 </ul>
               </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link" href="#">Resources</a>
+              <li class="nav-item dropdown mx-3">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Company</a></li>
+                  <li><a class="dropdown-item" href="#">Individual</a></li>
+
+                </ul>
               </li>
               <li class="nav-item dropdown mx-3">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Job Portal
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Be In The Know</a></li>
-                  <li><a class="dropdown-item" href="#">Open To Work</a></li>
+                  <li><a class="dropdown-item" href="#">Looking for job</a></li>
+                  <li><a class="dropdown-item" href="#">Looking for candidate</a></li>
                 </ul>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
-            <button type="button" name="button" class="btn btn-main rounded-pill text-white fw-bold " style="width:10rem;">Sign In</button>
+            <a type="button" name="button" class="btn btn-main rounded-pill text-white fw-bold " style="width:10rem;" href="login.html" >Sign In</a>
           </div>
         </div>
       </nav>
@@ -73,7 +80,7 @@
         <p class="text-main fs-6 mb-4" style="font-weight:900;">//ClosingTheGap</p>
         <h1 class="text-heading mb-4" style="font-weight: 900;font-size:1.875em">We don’t just bring deliverables in forms of thick decks and ideas.</h1>
         <h5 class="text-second mb-4 fs-6" style="font-weight:600">We are in the business #WorkingTogether with you to bring solution that works and #DeliveringImpacts for your business and organization. </h5>
-        <button type="button" name="button" class="btn btn-main rounded-pill text-white fw-bold" style="width:8rem;">Contact Us</button>
+        <a type="button" name="button" class="btn btn-main rounded-pill text-white fw-bold" style="width:8rem;" href="contact.html">Contact Us</a>
         <img src="assets/hero-vector.png" alt="" id="hero-vector">
       </div>
       <div class="counter-box px-3 py-4">
@@ -84,7 +91,7 @@
                 <img src="assets/user.png" alt="" style="width:3rem; height:3rem">
               </div>
               <div class="mt-2">
-                <h3 class="m-0 text-heading" style='font-weight:800'>20+</h3>
+                <h3 class="m-0 text-heading" style='font-weight:800'><span id="clientCount"></span>+</h3>
                 <p class="m-0">Clients</p>
               </div>
             </div>
@@ -95,7 +102,7 @@
                 <img src="assets/location.png" alt="" style="width:3rem; height:3rem">
               </div>
               <div class="mt-2">
-                <h3 class="m-0 text-heading" style='font-weight:800'>30+</h3>
+                <h3 class="m-0 text-heading" style='font-weight:800'><span id="projectCount"></span>+</h3>
                 <p class="m-0">Projects</p>
               </div>
             </div>
@@ -106,7 +113,7 @@
                 <img src="assets/server.png" alt="" style="width:3rem; height:3rem">
               </div>
               <div class="mt-2">
-                <h3 class="m-0 text-heading" style='font-weight:800'>40+</h3>
+                <h3 class="m-0 text-heading" style='font-weight:800'><span id="trainingCount"></span>+</h3>
                 <p class="m-0">Trainings</p>
               </div>
             </div>
@@ -122,10 +129,10 @@
       <h3 class="text-heading fw-700 fs-1">An integrated solution <br> to your business and organization.
 </h3>
       <div class="row mt-5 service-row">
-        <div class="col-4 p-4 service-card" style="border-bottom:solid 1px #e8e8e8;border-right:solid 1px #e8e8e8">
+        <div class="col-4 p-4 service-card" style="border-bottom:solid 1px #e8e8e8;border-right:solid 1px #e8e8e8" role="button" onclick="location.href='our-service.html'">
           <div class="px-1">
-            <div class="placeholder-service mb-3">
-
+            <div class="placeholder-service mb-3 d-flex justify-content-center align-items-center">
+              <img src="assets/service-1.png" alt="" style="margin:auto;width:60%">
             </div>
 
             <p class="text-dark fs-5">Strategic Talent Finder</p>
@@ -139,40 +146,10 @@
 
         </div>
 
-        <div class="col-4 p-4 service-card " style="border-bottom:solid 1px #e8e8e8;border-right:solid 1px #e8e8e8">
+        <div class="col-4 p-4 service-card " style="border-bottom:solid 1px #e8e8e8;border-right:solid 1px #e8e8e8" role="button" onclick="location.href='our-service.html'">
           <div class="px-1">
-            <div class="placeholder-service mb-3">
-
-            </div>
-
-            <p class="text-dark fs-5">Organization Improvement</p>
-            <p class="text-second fs-6">Lorem Ipsum Dolor de Anor Azazelia. Lorem Ipsum Dolor de Anor Azazelia.</p>
-          </div>
-
-          <div class="w-100 card-active" style="display:none">
-
-          </div>
-        </div>
-
-        <div class="col-4 p-4 service-card " style="border-bottom:solid 1px #e8e8e8">
-          <div class="px-1">
-            <div class="placeholder-service mb-3">
-
-            </div>
-
-            <p class="text-dark fs-5">Employee Journey</p>
-            <p class="text-second fs-6">Lorem Ipsum Dolor de Anor Azazelia. Lorem Ipsum Dolor de Anor Azazelia.</p>
-          </div>
-
-          <div class="w-100 card-active" style="display:none">
-
-          </div>
-        </div>
-
-        <div class="col-4 p-4 service-card " style="border-right:solid 1px #e8e8e8">
-          <div class="px-1">
-            <div class="placeholder-service mb-3">
-
+            <div class="placeholder-service mb-3 d-flex justify-content-center align-items-center">
+              <img src="assets/service-2.png" alt="" style="margin:auto;width:60%">
             </div>
 
             <p class="text-dark fs-5">Assessment & Profiling</p>
@@ -184,10 +161,25 @@
           </div>
         </div>
 
-        <div class="col-4 p-4 service-card " style="border-right:solid 1px #e8e8e8">
+        <div class="col-4 p-4 service-card " style="border-bottom:solid 1px #e8e8e8" role="button" onclick="location.href='our-service.html'">
           <div class="px-1">
-            <div class="placeholder-service mb-3">
+            <div class="placeholder-service mb-3 d-flex justify-content-center align-items-center">
+              <img src="assets/service-4.png" alt="" style="margin:auto;width:60%">
+            </div>
 
+            <p class="text-dark fs-5">Organization Improvements</p>
+            <p class="text-second fs-6">Lorem Ipsum Dolor de Anor Azazelia. Lorem Ipsum Dolor de Anor Azazelia.</p>
+          </div>
+
+          <div class="w-100 card-active" style="display:none">
+
+          </div>
+        </div>
+
+        <div class="col-4 p-4 service-card " style="border-right:solid 1px #e8e8e8" role="button" onclick="location.href='our-service.html'">
+          <div class="px-1">
+            <div class="placeholder-service mb-3 d-flex justify-content-center align-items-center">
+              <img src="assets/service-3.png" alt="" style="margin:auto;width:60%">
             </div>
 
             <p class="text-dark fs-5">Change Management</p>
@@ -199,13 +191,28 @@
           </div>
         </div>
 
-        <div class="col-4 p-4 service-card ">
+        <div class="col-4 p-4 service-card " style="border-right:solid 1px #e8e8e8" role="button" onclick="location.href='our-service.html'">
           <div class="px-1">
-            <div class="placeholder-service mb-3">
-
+            <div class="placeholder-service mb-3 d-flex justify-content-center align-items-center">
+              <img src="assets/service-5.png" alt="" style="margin:auto;width:60%">
             </div>
 
-            <p class="text-dark" style="font-size:1.1em">Empowerment Through Development</p>
+            <p class="text-dark fs-5">Digital Transformation</p>
+            <p class="text-second fs-6">Lorem Ipsum Dolor de Anor Azazelia. Lorem Ipsum Dolor de Anor Azazelia.</p>
+          </div>
+
+          <div class="w-100 card-active" style="display:none">
+
+          </div>
+        </div>
+
+        <div class="col-4 p-4 service-card " role="button" onclick="location.href='our-service.html'">
+          <div class="px-1">
+            <div class="placeholder-service mb-3 d-flex justify-content-center align-items-center">
+              <img src="assets/service-6.png" alt="" style="margin:auto;width:60%">
+            </div>
+
+            <p class="text-dark" style="font-size:1.1em">Other</p>
             <p class="text-second fs-6">Lorem Ipsum Dolor de Anor Azazelia. Lorem Ipsum Dolor de Anor Azazelia.</p>
           </div>
 
@@ -227,23 +234,22 @@
   <div class="container">
     <h5 class="text-main fw-800 fs-5 text-end me-5">//DeliveringImpact</h5>
     <h3 class="text-heading fw-700 fs-1 text-end mb-3 me-5">What our clients say</h3>
-    <div class="client-box rounded-pill py-5" style="background-color:var(--main);position:relative;right:-5rem;width:220vw;height:18rem">
-      <img src="assets/client01.png" alt="" style="width:10rem;z-index:999;position:absolute;top:2em;left:3.75em">
+    <div class="client-box rounded-pill py-5" style="background-color:#224E8F;position:relative;right:-5rem;width:220vw;height:18rem">
+      <img src="" alt="" style="width:10rem;z-index:999;position:absolute;top:2em;left:3.75em" id="feedbackLogo" data-fb-index="0">
       <div class="bg-white" style="height:17rem;width:17rem;border-radius:50%;position:absolute;top:.5rem;left:.5rem;">
       </div>
 
       <div class="client-text" style="margin-left:28em;width:35em;height:11rem">
-        <h5 class="text-white fs-4 fw-700">SVP Human Capital</h5>
-        <p class="text-heading fs-6 fw-700">PT. Penjaminan Infrastruktur Indonesia</p>
-        <p class="text-white fw-light" style="font-size:0.9em">CTG+ team is very knowledgeable, cooperative, and helpful throughout the HR Blueprint project. This gives stakeholder confidence in project delivery. CTG+ team successfully leads required
-          meetings for multiple purposes, which involve participants from various organization levels.</p>
+        <h5 class="text-white fs-4 fw-700" id="feedback-title"></h5>
+        <p class="text-info fs-6 fw-700" id="feedback-company"></p>
+        <p class="text-white fw-light" style="font-size:0.9em" id="feedback-content"></p>
 
       </div>
 
     </div>
     <div class="d-flex w-100 justify-content-end mt-3" style="position:relative;right:6em">
-      <button type="button" name="button" class="btn btn-outline-primary rounded-circle me-3" style="width:3rem;height:3rem"><i class="fas fa-arrow-left"></i></button>
-      <button type="button" name="button" class="btn btn-outline-primary rounded-circle " style="width:3rem;height:3rem"><i class="fas fa-arrow-right"></i></button>
+      <button type="button" name="button" class="btn btn-outline-primary rounded-circle me-3" style="width:3rem;height:3rem" id="prevButton"><i class="fas fa-arrow-left"></i></button>
+      <button type="button" name="button" class="btn btn-outline-primary rounded-circle " style="width:3rem;height:3rem" id="nextButton"><i class="fas fa-arrow-right"></i></button>
 
     </div>
   </div>
@@ -258,6 +264,9 @@
         <div class="carousel-cell text-center"><img src="assets/client04.png" class="w-100 h-100" /></div>
         <div class="carousel-cell text-center"><img src="assets/client05.png" class="w-100 h-100" /></div>
         <div class="carousel-cell text-center"><img src="assets/client06.png" class="w-100 h-100" /></div>
+        <div class="carousel-cell text-center"><img src="assets/client08.png" class="w-100 h-100" /></div>
+        <div class="carousel-cell text-center"><img src="assets/client09.png" class="w-100 h-100" /></div>
+        <div class="carousel-cell text-center"><img src="assets/client10.png" class="w-100 h-100" /></div>
 
       </div>
     </div>
@@ -272,10 +281,9 @@
           <h3 class="text-heading fw-700 fs-1">Resources to help<br /> your business</h3>
         </div>
         <div class="d-flex mt-5">
-          <img src="assets/resource01.png" alt="" style="width:3.5rem;height:3.5rem" class="mx-4">
-          <img src="assets/resource02.png" alt="" style="width:3.5rem;height:3.5rem" class="mx-4">
-          <img src="assets/resource03.png" alt="" style="width:3.5rem;height:3.5rem" class="mx-4">
-          <img src="assets/resource04.png" alt="" style="width:3.5rem;height:3.5rem" class="mx-4">
+          <i class="fas fa-file-video fa-4x text-main mx-4" ></i>
+          <i class="fas fa-file-alt fa-4x mx-4" style="color:var(--red)"></i>
+          <i class="fas fa-file-signature fa-4x mx-4" style="color:var(--yellow)"></i>
         </div>
       </div>
 
@@ -359,8 +367,8 @@
             </div>
             <div class="social-overlay d-flex align-items-center">
               <div class="w-75 m-auto text-center d-flex justify-content-center">
-                <a type="button" href="#" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fab fa-linkedin text-primary m-auto fs-4 mt-2"></i></a>
-                <a type="button" href="#" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fas fa-envelope text-primary m-auto fs-4 mt-2"></i></a>
+                <a type="button" href="https://www.linkedin.com/in/adsahermawan/" target="_blank" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fab fa-linkedin text-primary m-auto fs-4 mt-2"></i></a>
+                <a type="button" href="mailto:adsa.hermawan@ctgplusconsulting.com" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fas fa-envelope text-primary m-auto fs-4 mt-2"></i></a>
               </div>
             </div>
 
@@ -379,8 +387,8 @@
             </div>
             <div class="social-overlay d-flex align-items-center">
               <div class="w-75 m-auto text-center d-flex justify-content-center">
-                <a type="button" href="#" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fab fa-linkedin text-primary m-auto fs-4 mt-2"></i></a>
-                <a type="button" href="#" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fas fa-envelope text-primary m-auto fs-4 mt-2"></i></a>
+                <a type="button" href="https://www.linkedin.com/in/dhaslim/" target="_blank" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fab fa-linkedin text-primary m-auto fs-4 mt-2"></i></a>
+                <a type="button" href="mailto:darman.haslim@ctgplusconsulting.com" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fas fa-envelope text-primary m-auto fs-4 mt-2"></i></a>
               </div>
             </div>
 
@@ -399,8 +407,8 @@
             </div>
             <div class="social-overlay d-flex align-items-center">
               <div class="w-75 m-auto text-center d-flex justify-content-center">
-                <a type="button" href="#" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fab fa-linkedin text-primary m-auto fs-4 mt-2"></i></a>
-                <a type="button" href="#" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fas fa-envelope text-primary m-auto fs-4 mt-2"></i></a>
+                <a type="button" href="https://www.linkedin.com/in/anastasia-gladis-hendri-shrm-cp-69a86660/" target="_blank" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fab fa-linkedin text-primary m-auto fs-4 mt-2"></i></a>
+                <a type="button" href="mailto:anastasia.gladis@ctgplusconsulting.com" name="button" class="btn btn-light rounded-circle pt-2 social-btn mx-2" style="width:3.5rem;height:3.5rem"><i class="fas fa-envelope text-primary m-auto fs-4 mt-2"></i></a>
               </div>
             </div>
 
@@ -522,28 +530,28 @@ Drop your email here !</h3>
                     <div class="col-sm-4 col-md-3 item">
                         <h3>Services</h3>
                         <ul>
-                            <li><a href="#">Strategic Talent Finder</a></li>
-                            <li><a href="#">Organization Improvement</a></li>
-                            <li><a href="#">Employee Journey</a></li>
-                            <li><a href="#">Assessment & Profiling</a></li>
-                            <li><a href="#">Change Management</a></li>
-                            <li><a href="#">Empowerment Through Development</a></li>
+                            <li><a href="our-service.html">Strategic Talent Finder</a></li>
+                            <li><a href="our-service.html">Assessment & Profiling</a></li>
+                            <li><a href="our-service.html">Organization Improvements</a></li>
+                            <li><a href="our-service.html">Change Management</a></li>
+                            <li><a href="our-service.html">Digital Transformation</a></li>
+                            <li><a href="our-service.html">Other</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-3 item">
                         <h3>About</h3>
                         <ul>
 
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="our-team.html">Team</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-3 item">
                         <h3>Careers</h3>
                         <ul>
-                            <li><a href="#">Job Portal</a></li>
-                            <li><a href="#">BeInTheKnow</a></li>
-                            <li><a href="#">OpenToWork</a></li>
+
+                            <li><a href="#">Looking for job</a></li>
+                            <li><a href="#">Looking for candidate</a></li>
                         </ul>
                     </div>
 
@@ -558,12 +566,7 @@ Drop your email here !</h3>
 
 
 
-  <script type="text/javascript">
-    $(".service-card").hover(function() {
-      $(this).children().eq(1).css("display", "block");
-    }, function() {
-      $(this).children().eq(1).css("display", "none");
-    });
+  <script type="text/javascript" src="js/index.js">
   </script>
 </body>
 
