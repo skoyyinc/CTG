@@ -86,41 +86,41 @@
     </div>
   </section>
 
-  <section style="padding:0 8%">
-    <div class="container" style="padding:0 10%">
-      <div class="row rounded-pill align-items-center" style="background-color:var(--main);">
-        <div class="col-2 p-1 ">
-          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab active" style="width:6em;height:6em;">
+  <section style="padding:0 8%;margin-top:6em;margin-bottom:12em;min-height:100vh;">
+    <div class="container" style="padding:0 7%">
+      <div class="row rounded-pill align-items-center " id="myTab" style="background-color:var(--main);">
+        <div class="col-2 p-1">
+          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab " style="width:6em;height:6em;" id="pills-tab-1" data-bs-toggle="pill" data-bs-target="#pills-service-1" type="button" role="tab">
+            <img src="assets/resource01.png" alt="" class="w-75 m-auto">
+          </div>
+        </div>
+
+        <div class="col-2 p-1">
+          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;" id="pills-tab-2" data-bs-toggle="pill" data-bs-target="#pills-service-2" type="button" role="tab">
             <img src="assets/resource01.png" alt="" class="w-75 m-auto">
           </div>
         </div>
 
         <div class="col-2 p-1 ">
-          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;">
+          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;" id="pills-tab-3" data-bs-toggle="pill" data-bs-target="#pills-service-3" type="button" role="tab">
             <img src="assets/resource01.png" alt="" class="w-75 m-auto">
           </div>
         </div>
 
         <div class="col-2 p-1 ">
-          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;">
+          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;" id="pills-tab-4" data-bs-toggle="pill" data-bs-target="#pills-service-4" type="button" role="tab">
             <img src="assets/resource01.png" alt="" class="w-75 m-auto">
           </div>
         </div>
 
         <div class="col-2 p-1 ">
-          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;">
+          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;" id="pills-tab-5" data-bs-toggle="pill" data-bs-target="#pills-service-5" type="button" role="tab">
             <img src="assets/resource01.png" alt="" class="w-75 m-auto">
           </div>
         </div>
 
         <div class="col-2 p-1 ">
-          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;">
-            <img src="assets/resource01.png" alt="" class="w-75 m-auto">
-          </div>
-        </div>
-
-        <div class="col-2 p-1 ">
-          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;">
+          <div class="rounded-circle m-auto text-center d-flex align-items-center service-tab" style="width:6em;height:6em;" id="pills-tab-6" data-bs-toggle="pill" data-bs-target="#pills-service-6" type="button" role="tab">
             <img src="assets/resource01.png" alt="" class="w-75 m-auto">
           </div>
         </div>
@@ -129,11 +129,288 @@
 
 
       </div>
+
+      <div class="tab-content" id="pills-tabContent" style="margin-top:6em">
+      <div class="tab-pane fade show active" id="pills-service-1" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 p-3">
+            <h3 class="text-heading fw-700 fs-1 mb-4">Strategic <br> Talent Finder</h3>
+            <p class="fw-light text-second mb-4">Placing the right people at the right place has never been easy. A lot of considerations and assessments need to be made. As such, our consultants, with extensive exposure in organization projects and settings, brings valuable approach and viewpoints in ensuring the right fitness of our candidate with your organization and vice versa. </p>
+            <button type="button" name="button" class="btn btn-primary rounded-pill w-75 mb-4" style="background-color:var(--heading);border:none">Find Out More - I need a candidate</button>
+            <button type="button" name="button" class="btn btn-primary rounded-pill w-75 mb-4" style="background-color:var(--heading);border:none">Find Out More - I am a candidate</button>
+            <div class="d-flex align-items-center">
+              <button type="button" name="button" class="btn btn-primary rounded-circle py-2 px-3 next-btn" style="background-color:var(--heading)" data-bs-target="#pills-service-2" data-bs-tab="#pills-tab-2"><i class="fas fa-chevron-right"></i></button>
+              <p class="m-0 ms-3 text-second fw-light"><i>Next : Assessment & Profiling</i></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 p-3">
+            <img src="assets/service-frame.png" alt="" class="w-100">
+          </div>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="pills-service-2" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 p-3">
+            <h3 class="text-heading fw-700 fs-1 mb-4">Assessment & Profiling</h3>
+            <p class="fw-light text-second mb-4">Our certified assessors are using relevant psychological and behavioral assessment tools to provide information and insights for you about your people. Our Assessment & Profiling Service is applicable to both your potential employees (for selection and recruitment purposes), as well as your current employees (for any kind of development purposes).
+</p>
+            <button type="button" name="button" class="btn btn-primary rounded-pill w-75 mb-4" style="background-color:var(--heading);border:none">Find Out More</button>
+            <div class="d-flex align-items-center">
+              <button type="button" name="button" class="btn btn-primary rounded-circle py-2 px-3 next-btn" style="background-color:var(--heading)" data-bs-target="#pills-service-3" data-bs-tab="#pills-tab-3"><i class="fas fa-chevron-right"></i></button>
+              <p class="m-0 ms-3 text-second fw-light"><i>Next : Organization Improvements</i></p>
+            </div>
+
+
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 p-3">
+            <img src="assets/service-frame.png" alt="" class="w-100">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade " id="pills-service-3" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 p-3">
+            <h3 class="text-heading fw-700 fs-1 mb-4">Organization Improvements</h3>
+            <p class="fw-light text-second mb-4">We look at organization in an integrated perspective. A high performing organization would ensure that its organization practices, system & governance, and technology are interconnected and work in alignment to support organization needs. Whilst each pillar is equally important, the improvement focus need to be carefully assessed and weighed for optimal results.</p>
+            <p class="fw-light text-second mb-2 ">Let us partner with you in creating an impactful improvement programs.<br><br></p>
+
+            <div class="d-flex align-items-center">
+              <button type="button" name="button" class="btn btn-primary rounded-circle py-2 px-3 next-btn" style="background-color:var(--heading)" data-bs-target="#pills-service-4" data-bs-tab="#pills-tab-4"><i class="fas fa-chevron-right"></i></button>
+              <p class="m-0 ms-3 text-second fw-light"><i>Next : Change Management</i></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 p-3">
+            <img src="assets/service-frame.png" alt="" class="w-100">
+          </div>
+
+          <p>Our area of expertise : </p>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Organization Assessment</button>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Strategic Workforce Planning</button>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Organization Design</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">People Management</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Performance Management</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Employer Branding</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Training & Development</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Coaching</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Compensation & Benefits Management</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Business Process Optimization</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Change Management</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">HRIS</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <button type="button" name="button" class="btn btn-primary rounded-pill w-100 my-2" style="border:none;background-color:var(--heading)">Data Management</button>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade" id="pills-service-4" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 p-3">
+            <h3 class="text-heading fw-700 fs-1 mb-4">Change Management</h3>
+            <p class="fw-light text-second mb-4">Is your organization currently undergoing changes? <br><br> Human beings love stability and changes, at any given scale and point, will disrupt status quo and pose uncertainty. Without proper management, good intentions behind an organization change can easily be dismissed and undermined. Partner with us to properly assess the impact of change, prioritize the steps toward change, manage & monitor change process, and evaluate & mitigate any associated risks.
+</p>
+            <div class="d-flex align-items-center">
+              <button type="button" name="button" class="btn btn-primary rounded-circle py-2 px-3 next-btn" style="background-color:var(--heading)" data-bs-target="#pills-service-5" data-bs-tab="#pills-tab-5"><i class="fas fa-chevron-right"></i></button>
+              <p class="m-0 ms-3 text-second fw-light"><i>Next : Digital Transformation</i></p>
+            </div>
+
+
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 p-3">
+            <img src="assets/service-frame.png" alt="" class="w-100">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade " id="pills-service-5" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 p-3">
+            <h3 class="text-heading fw-700 fs-1 mb-4">Digital Transformation</h3>
+            <p class="fw-light text-second mb-4">
+              Organization-wide digital transformation happens when your workforce change the way they work for the better with the help of technology. While many systems are needed to bring about the transformation, HRIS would be the only system that have impact to everyone in the organization, without exception. This indicates the importance of having the right system requirements prior to selecting and implementing the right HRIS. <br><br> Our consultants’ in depth knowledge and expertise in HR technology make it an advantage for us to help you  preparing your digital transformation agenda and making it happen the way you intended it to be.
+              <br><br>
+              <i>Disclaimer: We are not under exclusive association with any kind of HRIS companies/brands.</i>
+            </p>
+            <div class="d-flex align-items-center">
+              <button type="button" name="button" class="btn btn-primary rounded-circle py-2 px-3 next-btn" style="background-color:var(--heading)" data-bs-target="#pills-service-6" data-bs-tab="#pills-tab-6"><i class="fas fa-chevron-right"></i></button>
+              <p class="m-0 ms-3 text-second fw-light"><i>Next : Other</i></p>
+            </div>
+
+
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 p-3">
+            <img src="assets/service-frame.png" alt="" class="w-100">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tab-pane fade " id="pills-service-6" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 p-3">
+            <h3 class="text-heading fw-700 fs-1 mb-4">Other</h3>
+            <p class="fw-light text-second mb-4">
+              Organization-wide digital transformation happens when your workforce change the way they work for the better with the help of technology. While many systems are needed to bring about the transformation, HRIS would be the only system that have impact to everyone in the organization, without exception. This indicates the importance of having the right system requirements prior to selecting and implementing the right HRIS. <br><br> Our consultants’ in depth knowledge and expertise in HR technology make it an advantage for us to help you  preparing your digital transformation agenda and making it happen the way you intended it to be.
+              <br><br>
+              <i>Disclaimer: We are not under exclusive association with any kind of HRIS companies/brands.</i>
+            </p>
+            <div class="d-flex align-items-center">
+              <button type="button" name="button" class="btn btn-primary rounded-circle py-2 px-3 next-btn" style="background-color:var(--heading)" data-bs-target="#pills-service-1" data-bs-tab="#pills-tab-1"><i class="fas fa-chevron-right"></i></button>
+              <p class="m-0 ms-3 text-second fw-light"><i>Next : Organization Improvements</i></p>
+            </div>
+
+
+
+          </div>
+
+          <div class="col-lg-6 col-md-6 p-3">
+            <img src="assets/service-frame.png" alt="" class="w-100">
+          </div>
+        </div>
+
+      </div>
+</div>
+    </div>
+  </section>
+
+  <section >
+    <div class="footer-clean" >
+        <div class="bg-white container w-75 p-4" style="position:relative;top:-8rem;border-radius:12px;box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px">
+          <h5 class="text-main fw-700 fs-6 text-center">//BeInTheKnow</h5>
+          <h3 class="text-heading fw-600 fs-4 text-center">Want to get updated on available job openings?<br>
+Drop your email here !</h3>
+          <div class="d-flex justify-content-center mt-3">
+            <input type="text" name="" value="" class="form-control w-50 rounded-pill p-3 ps-4" style="border-top-right-radius:0px!important;border-bottom-right-radius:0px!important;" placeholder="example@abc.com">
+            <button type="button" name="button" class="btn btn-primary rounded-pill p-3 fw-700" style="border-top-left-radius:0px!important;border-bottom-left-radius:0px!important;background-color:var(--heading)">Submit</button>
+          </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-3 item social">
+                      <img src="assets/logo-dark.png" alt="" class="w-25 ms-2 footer-logo">
+                      <p class="ms-2 footer-desc" style="font-size:.8em"><em>"Closing The Gap With <br>The Best Fitted Solution"</em></p>
+                      <div class="d-flex align-items-center my-2 justify-content-center w-50 footer-social">
+                        <a href="#" class="btn social-btn bg-white rounded-circle p-0 mx-2 text-primary" style="width:2rem;height:2rem"><i class="fab fa-linkedin mt-2"></i></a>
+                        <a href="#" class="btn social-btn bg-white rounded-circle p-0 mx-2 text-danger" style="width:2rem;height:2rem"><i class="fab fa-youtube mt-2"></i></a>
+                        <a href="#" class="btn social-btn bg-white rounded-circle p-0 mx-2 text-info" style="width:2rem;height:2rem"><i class="fab fa-twitter mt-2"></i></a>
+
+                      </div>
+                      <p class="copyright">CTG+ © 2022</p>
+                  </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Strategic Talent Finder</a></li>
+                            <li><a href="#">Organization Improvement</a></li>
+                            <li><a href="#">Employee Journey</a></li>
+                            <li><a href="#">Assessment & Profiling</a></li>
+                            <li><a href="#">Change Management</a></li>
+                            <li><a href="#">Empowerment Through Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Careers</h3>
+                        <ul>
+                            <li><a href="#">Job Portal</a></li>
+                            <li><a href="#">BeInTheKnow</a></li>
+                            <li><a href="#">OpenToWork</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
     </div>
   </section>
 
 
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".service-tab").click(function(){
+      $(".service-tab").removeClass("active")
+      $(this).addClass("active");
+      let targetService = $(this).attr("data-bs-target");
+      $(".tab-pane").removeClass("show active");
+      $(targetService).addClass("show active");
+    });
 
+    $(".next-btn").click(function(){
+      let targetService = $(this).attr("data-bs-target");
+      let targetTab = $(this).attr("data-bs-tab");
+      $(".service-tab").removeClass("active")
+      $(targetTab).addClass("active");
+
+      $(".tab-pane").removeClass("show active");
+      $(targetService).addClass("show active");
+    })
+  });
+</script>
 
 </body>
 
